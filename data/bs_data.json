@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Containers",
+    "description": "Containers are the most basic layout element in Bootstrap and are required when using our default grid system. Choose from a responsive, fixed-width container (meaning its max-width changes at each breakpoint) or fluid-width (meaning it’s 100% wide all the time).<br><br>While containers can be nested, most layouts do not require a nested container.",
+    "output": "xyz"
+  },
+  {
+    "name": "Scrollspy",
+    "description": "Scrollspy has a few requirements to function properly:<br><ul><li>If you’re building our JavaScript from source, it requires util.js.</li>
+    <li>It must be used on a Bootstrap nav component or list group.</li>
+    <li>Scrollspy requires position: relative; on the element you’re spying on, usually the <body>.</li>
+    <li>When spying on elements other than the <body>, be sure to have a height set and overflow-y: scroll; applied.</li>
+    <li>Anchors (<a>) are required and must point to an element with that id.</li></ul>
+    <p>When successfully implemented, your nav or list group will update accordingly, moving the .active class from one item to the next based on their associated targets.</p>",
+    "output": "xyz"
+  },
+  {
+    "name": "Tooltips",
+    "description": "Containers are the most basic layout element in Bootstrap and are required when using our default grid system. Choose from a responsive, fixed-width container (meaning its max-width changes at each breakpoint) or fluid-width (meaning it’s 100% wide all the time).<br><br>While containers can be nested, most layouts do not require a nested container.",
+    "output": "xyz"
+  },
+  {
+    "name": "Toasts",
+    "description": "Containers are the most basic layout element in Bootstrap and are required when using our default grid system. Choose from a responsive, fixed-width container (meaning its max-width changes at each breakpoint) or fluid-width (meaning it’s 100% wide all the time).<br><br>While containers can be nested, most layouts do not require a nested container.",
+    "output": "xyz"
+  },
+  {
+    "name": "Spinners",
+    "description": "Containers are the most basic layout element in Bootstrap and are required when using our default grid system. Choose from a responsive, fixed-width container (meaning its max-width changes at each breakpoint) or fluid-width (meaning it’s 100% wide all the time).<br><br>While containers can be nested, most layouts do not require a nested container.",
+    "output": "xyz"
+  },
+  {
+    "name": "Progress",
+    "description": "Containers are the most basic layout element in Bootstrap and are required when using our default grid system. Choose from a responsive, fixed-width container (meaning its max-width changes at each breakpoint) or fluid-width (meaning it’s 100% wide all the time).<br><br>While containers can be nested, most layouts do not require a nested container.",
+    "output": "xyz"
+  },
+  {
+    "name": "Popovers",
+    "description": "Containers are the most basic layout element in Bootstrap and are required when using our default grid system. Choose from a responsive, fixed-width container (meaning its max-width changes at each breakpoint) or fluid-width (meaning it’s 100% wide all the time).<br><br>While containers can be nested, most layouts do not require a nested container.",
+    "output": "xyz"
+  },
+  {
+    "name": "Pagination",
+    "description": "Containers are the most basic layout element in Bootstrap and are required when using our default grid system. Choose from a responsive, fixed-width container (meaning its max-width changes at each breakpoint) or fluid-width (meaning it’s 100% wide all the time).<br><br>While containers can be nested, most layouts do not require a nested container.",
+    "output": "xyz"
+  },
+  {
+    "name": "Navbar",
+    "description": "Containers are the most basic layout element in Bootstrap and are required when using our default grid system. Choose from a responsive, fixed-width container (meaning its max-width changes at each breakpoint) or fluid-width (meaning it’s 100% wide all the time).<br><br>While containers can be nested, most layouts do not require a nested container.",
+    "output": "xyz"
+  },
+  {
+    "name": "Navs",
+    "description": "Containers are the most basic layout element in Bootstrap and are required when using our default grid system. Choose from a responsive, fixed-width container (meaning its max-width changes at each breakpoint) or fluid-width (meaning it’s 100% wide all the time).<br><br>While containers can be nested, most layouts do not require a nested container.",
+    "output": "xyz"
+  },
+  {
+    "name": "Modal",
+    "description": "Containers are the most basic layout element in Bootstrap and are required when using our default grid system. Choose from a responsive, fixed-width container (meaning its max-width changes at each breakpoint) or fluid-width (meaning it’s 100% wide all the time).<br><br>While containers can be nested, most layouts do not require a nested container.",
+    "output": "xyz"
+  },
+  {
+    "name": "Media object",
+    "description": "Containers are the most basic layout element in Bootstrap and are required when using our default grid system. Choose from a responsive, fixed-width container (meaning its max-width changes at each breakpoint) or fluid-width (meaning it’s 100% wide all the time).<br><br>While containers can be nested, most layouts do not require a nested container.",
+    "output": "xyz"
+  },
+  {
+    "name": "List group",
+    "description": "Containers are the most basic layout element in Bootstrap and are required when using our default grid system. Choose from a responsive, fixed-width container (meaning its max-width changes at each breakpoint) or fluid-width (meaning it’s 100% wide all the time).<br><br>While containers can be nested, most layouts do not require a nested container.",
+    "output": "xyz"
+  },
+  {
+    "name": "Forms",
+    "description": "Containers are the most basic layout element in Bootstrap and are required when using our default grid system. Choose from a responsive, fixed-width container (meaning its max-width changes at each breakpoint) or fluid-width (meaning it’s 100% wide all the time).<br><br>While containers can be nested, most layouts do not require a nested container.",
+    "output": "xyz"
+  },
+  {
+    "name": "Dropdowns",
+    "description": "Containers are the most basic layout element in Bootstrap and are required when using our default grid system. Choose from a responsive, fixed-width container (meaning its max-width changes at each breakpoint) or fluid-width (meaning it’s 100% wide all the time).<br><br>While containers can be nested, most layouts do not require a nested container.",
+    "output": "xyz"
+  },
+  {
+    "name": "Collapse",
+    "description": "Containers are the most basic layout element in Bootstrap and are required when using our default grid system. Choose from a responsive, fixed-width container (meaning its max-width changes at each breakpoint) or fluid-width (meaning it’s 100% wide all the time).<br><br>While containers can be nested, most layouts do not require a nested container.",
+    "output": "xyz"
+  },
+  {
+    "name": "Carousel",
+    "description": "Containers are the most basic layout element in Bootstrap and are required when using our default grid system. Choose from a responsive, fixed-width container (meaning its max-width changes at each breakpoint) or fluid-width (meaning it’s 100% wide all the time).<br><br>While containers can be nested, most layouts do not require a nested container.",
+    "output": "xyz"
+  }
+]
