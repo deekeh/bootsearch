@@ -6,22 +6,22 @@
   },
   {
     "name": "Scrollspy",
-    "description": "Scrollspy has a few requirements to function properly:<br><ul><li>If you’re building our JavaScript from source, it requires util.js.</li><li>It must be used on a Bootstrap nav component or list group.</li>    <li>Scrollspy requires position: relative; on the element you’re spying on, usually the <body>.</li>    <li>When spying on elements other than the <body>, be sure to have a height set and overflow-y: scroll; applied.</li><li>Anchors (<a>) are required and must point to an element with that id.</li></ul><p>When successfully implemented, your nav or list group will update accordingly, moving the .active class from one item to the next based on their associated targets.</p>",
+    "description": "Scrollspy has a few requirements to function properly:<br><ul><li>If you’re building our JavaScript from source, it requires util.js.</li><li>It must be used on a Bootstrap nav component or list group.</li><li>Scrollspy requires position: relative; on the element you’re spying on, usually the &lt;body&gt;.</li><li>When spying on elements other than the &lt;body&gt;, be sure to have a height set and overflow-y: scroll; applied.</li><li>Anchors (&lt;a&gt;) are required and must point to an element with that id.</li></ul><p>When successfully implemented, your nav or list group will update accordingly, moving the .active class from one item to the next based on their associated targets.</p>",
     "output": "xyz"
   },
   {
     "name": "Tooltips",
-    "description": "Containers are the most basic layout element in Bootstrap and are required when using our default grid system. Choose from a responsive, fixed-width container (meaning its max-width changes at each breakpoint) or fluid-width (meaning it’s 100% wide all the time).<br><br>While containers can be nested, most layouts do not require a nested container.",
+    "description": "Things to know when using the tooltip plugin:<br><ul>Tooltips rely on the 3rd party library Popper.js for positioning. You must include popper.min.js before bootstrap.js or use bootstrap.bundle.min.js / bootstrap.bundle.js which contains Popper.js in order for tooltips to work!<li>If you’re building our JavaScript from source, it requires util.js.</li><li>Tooltips are opt-in for performance reasons, so you must initialize them yourself.</li><li>Tooltips with zero-length titles are never displayed.</li><li>Specify container: 'body' to avoid rendering problems in more complex components (like our input groups, button groups, etc).</li><li>Triggering tooltips on hidden elements will not work.</li><li>Tooltips for .disabled or disabled elements must be triggered on a wrapper element.</li><li>When triggered from hyperlinks that span multiple lines, tooltips will be centered. Use white-space: nowrap; on your <a>s to avoid this behavior.</li><li>Tooltips must be hidden before their corresponding elements have been removed from the DOM.</li><li>Tooltips can be triggered thanks to an element inside a shadow DOM.</li></ul>",
     "output": "xyz"
   },
   {
     "name": "Toasts",
-    "description": "Containers are the most basic layout element in Bootstrap and are required when using our default grid system. Choose from a responsive, fixed-width container (meaning its max-width changes at each breakpoint) or fluid-width (meaning it’s 100% wide all the time).<br><br>While containers can be nested, most layouts do not require a nested container.",
+    "description": "Things to know when using the toast plugin:<br><ul><li>If you’re building our JavaScript from source, it requires util.js.</li><li>Toasts are opt-in for performance reasons, so you must initialize them yourself.</li><li>Please note that you are responsible for positioning toasts.</li><li>Toasts will automatically hide if you do not specify autohide: false.</li></ul><h6>Basic</h6><p>To encourage extensible and predictable toasts, we recommend a header and body. Toast headers use display: flex, allowing easy alignment of content thanks to our margin and flexbox utilities.</p><p>Toasts are as flexible as you need and have very little required markup. At a minimum, we require a single element to contain your “toasted” content and strongly encourage a dismiss button.</p>",
     "output": "xyz"
   },
   {
     "name": "Spinners",
-    "description": "Containers are the most basic layout element in Bootstrap and are required when using our default grid system. Choose from a responsive, fixed-width container (meaning its max-width changes at each breakpoint) or fluid-width (meaning it’s 100% wide all the time).<br><br>While containers can be nested, most layouts do not require a nested container.",
+    "description": "<p>Bootstrap \"spinners\" can be used to show the loading state in your projects. They’re built only with HTML and CSS, meaning you don’t need any JavaScript to create them. You will, however, need some custom JavaScript to toggle their visibility. Their appearance, alignment, and sizing can be easily customized with our amazing utility classes.</p><p>For accessibility purposes, each loader here includes <i>role=\"status\"</i> and a nested <i>&lt;span class=\"sr-only\"&gt;Loading...&lt;/span&gt;</i>.</p>",
     "output": "xyz"
   },
   {
