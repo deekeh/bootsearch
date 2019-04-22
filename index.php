@@ -25,8 +25,18 @@
         </div>
       </nav><br>
 
-      <div id="content" class="list-group"></div>
-      <div id="description" style="display: none;"></div>
+      <div class="" id="main-body">
+        <div class="jumbotron jumbotron-fluid text-center" id="main">
+          <div class="container">
+            <h1 class="display-3">BootStrap at your fingertips</h1><br><br><br><br>
+            <p class="lead" id="main-desc">
+              Bootsearch is a simple searching tool for all your BootStrap queries. Start searching now!
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- <div id="content" class="list-group"></div>
+      <div id="description" style="display: none;"></div> -->
     </div>
     <br>
   </body>
