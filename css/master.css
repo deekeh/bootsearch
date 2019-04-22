@@ -3,3 +3,20 @@
   border-bottom: solid 1px;
   /* color: #00ff00; */
 }
+
+body
+{
+  background-image: linear-gradient(to right, #4d4347 , #2c3e50);
+
+}
+
+#main
+{
+  background-color: inherit;
+  color: white;
+}
+
+#main-desc
+{
+  font-size: 1.5rem;
+}
