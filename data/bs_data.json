@@ -6,12 +6,7 @@
   },
   {
     "name": "Scrollspy",
-    "description": "Scrollspy has a few requirements to function properly:<br><ul><li>If you’re building our JavaScript from source, it requires util.js.</li>
-    <li>It must be used on a Bootstrap nav component or list group.</li>
-    <li>Scrollspy requires position: relative; on the element you’re spying on, usually the <body>.</li>
-    <li>When spying on elements other than the <body>, be sure to have a height set and overflow-y: scroll; applied.</li>
-    <li>Anchors (<a>) are required and must point to an element with that id.</li></ul>
-    <p>When successfully implemented, your nav or list group will update accordingly, moving the .active class from one item to the next based on their associated targets.</p>",
+    "description": "Scrollspy has a few requirements to function properly:<br><ul><li>If you’re building our JavaScript from source, it requires util.js.</li><li>It must be used on a Bootstrap nav component or list group.</li>    <li>Scrollspy requires position: relative; on the element you’re spying on, usually the <body>.</li>    <li>When spying on elements other than the <body>, be sure to have a height set and overflow-y: scroll; applied.</li><li>Anchors (<a>) are required and must point to an element with that id.</li></ul><p>When successfully implemented, your nav or list group will update accordingly, moving the .active class from one item to the next based on their associated targets.</p>",
     "output": "xyz"
   },
   {
