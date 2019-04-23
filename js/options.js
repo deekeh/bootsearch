@@ -1,6 +1,11 @@
 // document.getElementsByClassName('op').addEventListener('click', getdescription);
 
 var getdescription = function (search_term) {
+  var exp = document.getElementById('explore-area');
+  if (exp != null)
+  {
+    exp.innerHTML = "<div id='main-body'></div";
+  }
   document.getElementById('main-body').innerHTML = '<div id="description"></div>';
 
   var xhr = new XMLHttpRequest();

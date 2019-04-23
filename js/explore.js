@@ -21,7 +21,7 @@ var getAll = function(e_char)
 	    if (this.status == 200)
 	    {
 	      var json_values = JSON.parse(this.responseText);
-	      var output = '';
+	      var output = ''; var exist;
 	      
 	      for (var i = 0; i < json_values.length; i++)
 	      	{
@@ -29,7 +29,12 @@ var getAll = function(e_char)
 	        	{
 		        	console.log("hi 5" + json_values[i].name);
 		        	document.getElementById('content').innerHTML += "<button type=\"button\" class=\"list-group-item list-group-item-action op\" onclick=\"getdescription(\'" + json_values[i].name + "\');\">" + json_values[i].name + "</button>";
+		        	exist = true;
 	        	}
+	        }
+	        if (!exist)
+	        {
+	        	document.getElementById('content').innerHTML += "<button type=\"button\" class=\"list-group-item list-group-item-action op\" disabled>" + "No values" + "</button>";
 	        }
 	    }
 	}
