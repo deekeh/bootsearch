@@ -25,9 +25,11 @@
           </form>
         </div> -->
       </nav><br>
-
-      <div id="explore-area" style="overflow: auto;">
+      <div id="explore-navX" style="overflow: auto;">
       	<div class="btn-group" style="width: 100%;" id="button-nav" role="group" aria-label="Basic example"></div>
+      </div>
+      <br>
+      <div id="explore-area" style="overflow: auto;">
       	<div id="main-body"></div>
       </div>
     </div>
