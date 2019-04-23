@@ -10,36 +10,26 @@
 
     <link rel="stylesheet" href="css/master.css">
     <script type="text/javascript" src="js/options.js"></script>
+    <script type="text/javascript" src="js/explore.js"></script>
   </head>
-  <body>
+  <body onload="addButtons();">
     <div class="container-fluid">
       <nav class="navbar navbar-light bg-light row mynav">
         <div class="">
-          <a class="navbar-brand" href=""><img src="img/bs_logo.png" height="35rem" alt=""><span> | BootSearch</span></a>
+          <a class="navbar-brand" href="/bootsearch"><img src="img/bs_logo.png" height="35rem" alt=""><span> | BootSearch</span></a>
         </div>
-        <div class="">
+        <!-- <div class="">
           <form class="form-inline" method="get">
             <input class="form-control mr-sm-2 col-lg-8 col-md-8 col-sm-12 col-xs-12" id='search_term' type="search" placeholder="Search" aria-label="Search">
             <input id='search_b' class="btn btn-outline-success my-2 my-sm-0 col-lg-3 col-md-3 col-sm-12 col-xs-12" type="button" value="Search" onclick="display_options();">
           </form>
-        </div>
+        </div> -->
       </nav><br>
 
-      <div class="" id="main-body">
-        <div class="jumbotron jumbotron-fluid text-center" id="main">
-          <div class="container">
-            <h1 class="display-3">BootStrap at your fingertips</h1><br><br><br><br>
-            <p class="lead" id="main-desc">
-              Bootsearch is a simple searching tool for all your BootStrap queries. Start searching now!
-            </p>
-            <p>
-              <a class="btn btn-light" href="explore.php" role="button">Explore</a>
-            </p>
-          </div>
-        </div>
+      <div id="explore-area" style="overflow: auto;">
+      	<div class="btn-group" style="width: 100%;" id="button-nav" role="group" aria-label="Basic example"></div>
+      	<div id="main-body"></div>
       </div>
-      <!-- <div id="content" class="list-group"></div>
-      <div id="description" style="display: none;"></div> -->
     </div>
     <br>
   </body>
